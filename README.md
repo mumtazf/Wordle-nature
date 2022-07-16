@@ -1,11 +1,11 @@
-# unlimitedwordlex-eem
+# Unlimited Wordle - Nature Edition
 unlimitedwordlex-eem created by GitHub Classroom
 
 
 INTRODUCTION
 -------------
 
-Unlimited Wordle Garden Edition is a wordle game that is garden themed. It has three difficulty levels which are based on word lenght. The words and GUI are garden themed.
+Unlimited Wordle Nature Edition is a wordle game that is garden themed. It has three difficulty levels which are based on word lenght. The words and GUI are inspired by nature.
 
 HOW TO PLAY THE GAME
 --------------------
