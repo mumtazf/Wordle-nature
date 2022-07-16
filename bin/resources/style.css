@@ -1,0 +1,78 @@
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-display-caret: false;
+    -fx-max-width : 50;
+    -fx-min-height : 50;
+    -fx-font-size : 20;
+    -fx-alignment : CENTER;
+    -fx-text-box-border : black;
+}
+
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+    -fx-focus-color : red;
+}
+
+
+.button {
+    -fx-background-color:#e0b1cffb, #48bfe3, #5390d9,  radial-gradient(center 50% 50%, radius 100%,#5390d9,#48bfe3);
+    -fx-text-fill: white; 
+    -fx-font-size: 15;
+    -fx-border-color:black;
+    -fx-border-radius:5;
+    -fx-background-radius:10;
+    -fx-padding: 8 18 20 20;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 10 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+}
+
+.button:pressed{
+	-fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+	
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 60;
+    -fx-font-weight: bold;
+   
+    -fx-effect: innershadow(gaussian, rgba(225,0,0,1),10,0,0,1);
+    -fx-effect: innershadow(gaussian, rgba(225,0,0,1),10,0,0,1);
+    -fx-outline-color: coral;
+    -fx-font-family: cursive;
+}
+
+
+.combo-box .list-cell {
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
+}
+
+.combo-box-base  {
+    -fx-background-color:#e0b1cffb, #48bfe3, #5390d9,  radial-gradient(center 50% 50%, radius 100%,#5390d9,#48bfe3);
+    -fx-text-fill: white; 
+    -fx-font-size: 15;
+    -fx-border-color:black;
+    -fx-border-radius:5;
+    -fx-background-radius:10;
+    -fx-padding: 8 18 20 20;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 10 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+} 
+
+#scoreValue{
+
+    -fx-text-fill: yellow;
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-font-effect: dropshadow(gaussian, rgba(0,0,220,1),10,0,0,1);
+    -fx-outline-color: coral;
+    -fx-font-style: oblique;
+    -fx-border-color: aqua;
+    -fx-border-width: 5 ; 
+    -fx-border-style: segments(10, 15, 15, 15)  line-cap round ;
+}
